@@ -1,0 +1,83 @@
+.secondary-bg {
+    background-color: #fff8f3;
+}
+
+.container {
+    background-image: url('../Public/developer.png'), url('../Public/header_bg.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    height: 750px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.navbar-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar-link li {
+    margin-right: 20px;
+}
+
+.navbar-link li a {
+    text-decoration: none;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    background-color: #fd6e0a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-title {
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#sub-title {
+    color: #fd6e0a;
+}
+
+.banner {
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 560px;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.content-name {
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.dsc {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button-box button {
+    margin: 0 20px 0 0;
+}
